@@ -18,7 +18,7 @@ body {
 }
 /****************************** HEADER **************************/
 header {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	height: 76px;
 	width: 100%;
 	display: flex;
@@ -61,32 +61,36 @@ main {
 }
 /************************* SECTION Left Side  *********************/
 section.left-side {
-	border: 2px solid rgb(255, 238, 0);
+	/* border: 2px solid rgb(255, 238, 0); */
 	width: 50%;
 	height: 100%;
-	padding-left: 15px;
+	padding-top: 50px;
 }
 section.left-side h1 {
-	border: 2px solid rgb(255, 238, 0);
-	font-size: 5rem;
+	/* border: 2px solid rgb(255, 238, 0); */
+	font-size: 4.5rem;
+	font-weight: 700;
+	padding-top: 30px;
 }
 section.left-side h3 {
-	border: 2px solid #474cfe;
+	/* border: 2px solid #474cfe; */
 	color: #474cfe;
 	margin: 10px 0;
+	font-size: 1.6rem;
 }
 section.left-side p {
-	border: 2px solid #fff;
-	font-weight: 400;
+	/* border: 2px solid #fff; */
+	font-weight: 300;
+	font-size: 0.68rem;
 }
 /************************* SECTION Right Side *********************/
 section.right-side {
-	border: 2px solid rgb(43, 255, 0);
+	/* border: 2px solid rgb(43, 255, 0); */
 	width: 50%;
 	height: 100%;
 }
 section.right-side img {
-	border: 2px solid rgb(43, 255, 0);
+	/* border: 2px solid rgb(43, 255, 0); */
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
