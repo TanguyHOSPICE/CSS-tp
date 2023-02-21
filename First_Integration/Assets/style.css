@@ -1,7 +1,7 @@
 /* FONTS
 font-family: 'Inter', sans-serif;
 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 * {
 	margin: 0;
@@ -10,10 +10,10 @@ font-family: 'Inter', sans-serif;
 	list-style: none;
 }
 body {
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 	height: 100vh;
 	width: 100vw;
-	background: #000;
+	background: #1d1d1d;
 	color: white;
 }
 /****************************** HEADER **************************/
@@ -28,7 +28,7 @@ header {
 }
 header div {
 	width: 100%;
-	padding-left: 40px;
+	padding-left: 15px;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -41,7 +41,7 @@ header nav {
 header nav ul {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
 	padding-right: 40px;
 }
@@ -52,23 +52,49 @@ header nav ul li {
 }
 /****************************** MAIN **************************/
 main {
-	visibility: hidden;
-	border: 2px solid red;
+	/* visibility: hidden; */
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	width: 100vw;
+	height: 75vh;
 }
 /************************* SECTION Left Side  *********************/
-section .left-side {
-	border: 2px solid red;
+section.left-side {
+	border: 2px solid rgb(255, 238, 0);
+	width: 50%;
+	height: 100%;
+	padding-left: 15px;
+}
+section.left-side h1 {
+	border: 2px solid rgb(255, 238, 0);
+	font-size: 5rem;
+}
+section.left-side h3 {
+	border: 2px solid #474cfe;
+	color: #474cfe;
+	margin: 10px 0;
+}
+section.left-side p {
+	border: 2px solid #fff;
+	font-weight: 400;
 }
 /************************* SECTION Right Side *********************/
-section .right-side {
-	border: 2px solid red;
+section.right-side {
+	border: 2px solid rgb(43, 255, 0);
+	width: 50%;
+	height: 100%;
+}
+section.right-side img {
+	border: 2px solid rgb(43, 255, 0);
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
 }
 /****************************** FOOTER **************************/
 footer {
 	visibility: hidden;
+	background: #000;
 	border: 2px solid red;
 	display: flex;
 	align-items: center;
