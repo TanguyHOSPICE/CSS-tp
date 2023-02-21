@@ -75,6 +75,8 @@ section.left-side {
 .left-side_container {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 50%;
 	margin: 0px 15px;
 }
