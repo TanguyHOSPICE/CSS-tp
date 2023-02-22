@@ -1,0 +1,33 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+		'yel1 yel1 pur2'
+		'red4 gre3 pur2'
+		'red4 orc5 orc5';
+}
+/* GRID */
+div:nth-child(1) {
+	background: yellow;
+	grid-area: yel1;
+}
+div:nth-child(2) {
+	background: purple;
+	grid-area: pur2;
+}
+div:nth-child(3) {
+	background: green;
+	grid-area: gre3;
+}
+div:nth-child(4) {
+	background: red;
+	grid-area: red4;
+}
+div:nth-child(5) {
+	background: orchid;
+	grid-area: orc5;
+}
