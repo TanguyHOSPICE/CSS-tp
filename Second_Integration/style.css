@@ -93,12 +93,33 @@ nav li:last-child::before {
 }
 /***********HEADER**************/
 header {
-	margin: 60px 0;
+	margin: 60px 0 0;
 }
 .main-header {
 	background: url(/assets/img/bg.jpg) fixed center/cover;
 	padding: 60px;
 	color: white;
+}
+.main-header h1 {
+	margin: 70px 0 42px;
+	text-transform: uppercase;
+}
+.main-header button {
+	padding: 16px 18px;
+	letter-spacing: 0.2rem;
+}
+.main-header button i {
+	margin: 5px;
+}
+.header-txt {
+	padding: 70px 0;
+	font-weight: 900;
+	font-size: 1.2rem;
+	text-align: center;
+}
+/***********SECTION-business**************/
+.business {
+	background: #000;
 }
 /***********MEDIA QUERIES**************/
 @media screen and (max-width: 1079px) {
