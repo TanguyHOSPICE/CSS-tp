@@ -149,7 +149,52 @@ header {
 .list-icon-part button {
 	padding: 9px 32px;
 }
-*/
+/***********SECTION-newsroom**************/
+.newsroom {
+	background: #f7f7f7;
+	margin: 0px auto;
+	padding: 80px 0px 45px;
+}
+.newsroom-header {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	padding: 30px;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+.left-part {
+	line-height: 30px;
+}
+.left-part h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #8c8378;
+	text-align: left;
+}
+.left-part p {
+	font-weight: 600;
+	text-align: left;
+	font-size: 0.9rem;
+}
+.right-part button {
+	color: black;
+	border-color: black;
+	letter-spacing: 1px;
+	padding: 10px 20px;
+}
+
+.right-part button:hover {
+	color: white;
+	border-color: white;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.main-news-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+}
 /***********MEDIA QUERIES**************/
 @media screen and (max-width: 1079px) {
 	nav li {
