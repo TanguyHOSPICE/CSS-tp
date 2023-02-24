@@ -179,6 +179,7 @@ header {
 }
 .right-part button {
 	color: black;
+	border: 1px solid black;
 	letter-spacing: 1px;
 	padding: 10px 20px;
 }
@@ -204,10 +205,8 @@ header {
 	position: relative;
 	max-width: 23%;
 	min-height: 468px;
-	border: 2px solid red;
 }
 .mn-pic img {
-	border: 2px solid yellow;
 	top: 0;
 	object-fit: cover;
 	width: 100%;
@@ -232,6 +231,77 @@ header {
 	color: #5f04aa;
 	letter-spacing: 1px;
 	font-weight: 700;
+}
+.link a:hover {
+	color: whitesmoke;
+	background-color: #5f04aa;
+	padding: 10px 20px;
+	border-radius: 50px;
+}
+.link i {
+	transform: translateX(5px);
+}
+/***********SECTION-campus**************/
+.contact {
+	max-width: 1100px;
+	padding: 65px 0px 20px;
+	margin: 0px auto;
+	border: 1px solid red;
+}
+.contact-container {
+	display: flex;
+	flex-direction: column;
+}
+.contact-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 400;
+}
+.media-text::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: -05px;
+	width: 80%;
+	height: 1px;
+	background: #e2e2e2;
+	margin: 0 auto;
+}
+.list {
+	text-align: left;
+	width: 24%;
+}
+.list img {
+	display: block;
+	margin: 0px auto;
+}
+.list h5 {
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.list li,
+.list p {
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+.list h6 {
+	font-size: 0.8rem;
+	margin-bottom: 8px;
+}
+.list .network {
+	margin: 20px 0px 7px;
+}
+.list .footer-logos i {
+	margin: 0 12px 30px 0;
+	font-size: 0.8rem;
+}
+.list p {
+	margin: 0;
+}
+.contact-media {
+	position: relative;
 }
 /***********MEDIA QUERIES**************/
 @media screen and (max-width: 1079px) {
